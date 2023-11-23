@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  width: 80vw;
+  height: 90vh;
+  padding: 20px;
+}
+input {
+  padding: 10px;
+  outline: none;
+}
+button {
+  padding: 10px 20px;
+}
+.recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipe-container div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-container div img {
+  width: 100px;
+}
+.active {
+  background-color: black;
+  color: white;
+}
+
+.pages {
+  margin: 10px;
+}
+.activePage {
+  background-color: blue;
+  color: wheat;
+}
